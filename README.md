@@ -44,3 +44,8 @@ Please provide a <b>README.md</b> file explaining your repo structure, your test
 
 1. Please expect questions on your approach in completing the task. The challenges you faced, how will you do it differently if you could not complete the test.
 2. Please research on the UI and API testing tools available in the market with focus on Cypress
+
+
+# Run Tests
+1. npx cypress run - headless
+2. npx cypress open - choosing browser 
