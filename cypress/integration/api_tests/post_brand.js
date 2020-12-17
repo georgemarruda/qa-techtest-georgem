@@ -4,8 +4,6 @@ import * as Brand from '../requests/requests'
 
 context('Save New Brand', () => {
 
-    //const json = require('../../fixtures/brand_model')
-
     it('Input a new brand', () => {
         cy.fixture('brand_model').then((brand) => {
             brand.name = faker.lorem.words()
